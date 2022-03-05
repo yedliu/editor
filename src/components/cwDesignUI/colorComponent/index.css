@@ -1,0 +1,16 @@
+.move-canvas {
+  pointer-events: none;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #d4d7dc;
+  z-index: 9999;
+}
+
+.show-color {
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}

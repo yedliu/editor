@@ -1,0 +1,44 @@
+.rdw-right-aligned-block {
+    text-align: right;
+  }
+  .rdw-left-aligned-block {
+    text-align: left !important;
+  }
+  .rdw-center-aligned-block {
+    text-align: center !important;
+  }
+  .rdw-justify-aligned-block {
+    text-align: justify !important;
+  }
+  .rdw-right-aligned-block > div {
+    display: inline-block;
+  }
+  .rdw-left-aligned-block > div {
+    display: inline-block;
+  }
+  .rdw-center-aligned-block > div {
+    display: inline-block;
+  }
+  .rdw-justify-aligned-block > div {
+    display: inline-block;
+  }
+  .default-block {
+    font-size: 36;
+  }
+
+
+  .public-DraftStyleDefault-block-left > div {
+    text-align: left;
+  }
+  .public-DraftStyleDefault-block-center > div {
+    text-align: center;
+  }
+  .public-DraftStyleDefault-block-right > div {
+    text-align: right;
+  }
+
+  .public-DraftStyleDefault-block > div {
+    text-align: right;
+  }
+
+  

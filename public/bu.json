@@ -1,0 +1,75 @@
+[
+    {
+        "bu": 1,
+        "buName": "掌门1对1",
+        "pageTypes": [
+            {
+                "name": "默认",
+                "value": 0
+            },
+            {
+                "name": "视频页",
+                "value": 2
+            },
+            {
+                "name": "答题页",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "bu": 2,
+        "buName": "掌门少儿",
+        "pageTypes": [
+            {
+                "name": "默认",
+                "value": 0
+            },
+            {
+                "name": "视频页",
+                "value": 2
+            },
+            {
+                "name": "答题页",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "bu": 3,
+        "buName": "掌门陪练",
+        "pageTypes": [
+            {
+                "name": "默认",
+                "value": 0
+            },
+            {
+                "name": "视频页",
+                "value": 2
+            },
+            {
+                "name": "答题页",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "bu": 4,
+        "buName": "掌门小天才",
+        "pageTypes": [
+            {
+                "name": "默认",
+                "value": 0
+            },
+            {
+                "desc": "真人上台视频页面",
+                "name": "视频课件",
+                "value": 1
+            },
+            {
+                "name": "全屏视频课件",
+                "value": 4
+            }
+        ]
+    }
+]

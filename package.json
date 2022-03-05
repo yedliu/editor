@@ -1,0 +1,66 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "cross-env UMI_ENV=local umi dev",
+    "startuat": "cross-env UMI_ENV=uat umi dev",
+    "startpro": "cross-env UMI_ENV=prod umi dev",
+    "fat": "cross-env NODE_OPTIONS=--max_old_space_size=4096 UMI_ENV=fat umi build",
+    "uat": "cross-env NODE_OPTIONS=--max_old_space_size=4096 UMI_ENV=uat umi build",
+    "pro": "cross-env NODE_OPTIONS=--max_old_space_size=4096 UMI_ENV=prod umi build",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.23.0",
+    "@umijs/preset-react": "^1.4.8",
+    "@umijs/test": "^3.0.14",
+    "@zm-fe/zm-jssdk": "^1.3.30",
+    "ali-oss": "^6.10.0",
+    "antd": "4.7",
+    "axios": "^0.19.2",
+    "chardet": "^1.3.0",
+    "copy-to-clipboard": "^3.3.1",
+    "crypto-js": "^4.0.0",
+    "draft-js": "^0.11.6",
+    "echarts": "^4.9.0",
+    "echarts-for-react": "^2.0.16",
+    "element-theme-default": "^1.4.13",
+    "flexlayout-react": "^0.3.6",
+    "html2canvas": "^1.0.0-rc.5",
+    "immutable": "^4.0.0-rc.12",
+    "linq-to-typescript": "^6.0.1",
+    "lint-staged": "^10.0.7",
+    "md5": "^2.3.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.12.0",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.21",
+    "react-hotkeys": "^2.0.0-pre9",
+    "reflect-metadata": "^0.1.13",
+    "styled-components": "^5.1.0",
+    "umi": "^3.0.14",
+    "uuid": "^8.1.0",
+    "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/pako": "^1.0.1",
+    "cross-env": "^7.0.2"
+  }
+}
